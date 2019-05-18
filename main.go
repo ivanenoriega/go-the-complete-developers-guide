@@ -8,5 +8,6 @@ func main() {
 	// Two - Create a new deck from the file my_cards
 	// cards := newDeckFromFile("my_cards")
 	// cards := newDeckFromFile("error_case") // Error case
+	cards.shuffle()
 	cards.print()
 }
